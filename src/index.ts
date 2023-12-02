@@ -1,2 +1,5 @@
-import { aoc01 } from './aoc/01/01';
-aoc01();
+import { results } from './aoc';
+
+results.forEach((func) => {
+  console.log(func.name, 'Result:', func());
+});
